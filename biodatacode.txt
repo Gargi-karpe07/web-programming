@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramanand Mahajan - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff00b3, #6a0dad);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="D:\Codefiles\biodata\your-image.jpg" alt="Gargi Karpe">
+            <h1>Gargi Karpe</h1>
+        </div>
+        <p class="contact-info">
+            Email: gargi.karpe4@pcu.edu.in | Phone: +91-94210XXXXX | 
+            GitHub: <a href="https://github.com/Gargi-karpe07">Gargi-karpe07</a> | 
+            LinkedIn: <a>Gargi Karpe</a>
+        </p>
+
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <p><strong>Pimpri Chinchwad University, Pune, India</strong><br>
+            B.Tech in Computer Science and Engineering<br>
+            GPA: 6.2/10.0 | Expected graduation: May 2028</p>
+            <p><strong>D Y Patil College</strong><br>
+            Intermediate | Percentage: 65.33% | June 2024</p>
+            <p><strong>St. Andrews Convent School</strong><br>
+            SSC | Percentage: 80% | March 2022</p>
+        </div>
+
+        <div class="section">
+            <h2>TECHNICAL SKILLS</h2>
+            <p><strong>Programming Languages:</strong> Java, Python, Rust, Pandas, TensorFlow, PyTorch</p>
+            <p><strong>Front-End:</strong> HTML, CSS, Bootstrap, Vue, Node</p>
+        </div>
+
+        <div class="section">
+            <h2>CERTIFICATIONS</h2>
+            <p>Foundation of Cybersecurity – Coursera</p>
+            <p>Write Smarter with Overleaf and LaTeX – Coursera</p>
+            <p>Programming with C – Coursera</p>
+            <p>Programming with C++ – Coursera</p>
+            <p>Communication Skills – Arizona University</p>
+        </div>
+    </div>
+</body>
+</html>
