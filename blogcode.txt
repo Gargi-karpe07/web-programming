@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forts of Maharashtra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgb(0, 255, 132),#ff00c8);
+            
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .fort {
+            background: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .fort img {
+            width: 100%;
+            max-width: 600px;
+            max-height: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Forts of Maharashtra</header>
+    <div class="container">
+        <div class="fort">
+            <h2>Raigad Fort</h2>
+            <img src="D:\Codefiles\blog\image1.jpg" alt="Raigad Fort">
+            <p>Raigad Fort was the capital of the Maratha Empire under Chhatrapati Shivaji Maharaj. It stands at an elevation of 1,356 meters above sea level and offers breathtaking views.</p>
+        </div>
+        <div class="fort">
+            <h2>Pratapgad Fort</h2>
+            <img src="D:\Codefiles\blog\image2.jpg" alt="Pratapgad Fort">
+            <p>Pratapgad Fort is famous for the historic battle between Chhatrapati Shivaji Maharaj and Afzal Khan. The fort is known for its strategic location and historical significance.</p>
+        </div>
+        <div class="fort">
+            <h2>Rajgad Fort</h2>
+            <img src="D:\Codefiles\blog\image3.jpg" alt="Rajgad Fort">
+            <p>Rajgad Fort was one of the most significant forts of the Maratha Empire. It served as the capital before Raigad and has a rich history of battles and valor.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Forts of Maharashtra | Designed by Gargi Karpe
+    </footer>
+</body>
+</html>
